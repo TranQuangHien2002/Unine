@@ -13,10 +13,18 @@ body {
     height: 100%;
 }
 
+
+/*header*/
+
+.war-conten {
+    max-width: 1366px;
+    margin: auto;
+}
+
 .header {
     margin-top: 25px;
     background-color: black;
-    height: 800px;
+    height: 900px;
 }
 
 .nav-link {
@@ -24,7 +32,7 @@ body {
 }
 
 .header img {
-    margin-left: 204px;
+    margin-left: 72px;
     margin-top: 23px;
 }
 
@@ -37,6 +45,9 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+
+/*container*/
 
 .container .row {
     color: aliceblue;
@@ -71,13 +82,112 @@ body {
     margin-left: 10px;
 }
 
-.section .row {
+
+/*section*/
+
+
+/*section-1*/
+
+.section-1 {
+    background-image: url("..//image/background-2.svg");
+    height: 700px;
+}
+
+.section-1>.container {
+    margin-top: 150px;
     display: flexbox;
 }
 
-.section .card {
-    width: 274px;
+.section-1 .row {
+    display: flexbox;
+}
+
+.section-1 .cropper {
+    text-align: center;
+}
+
+.section-1 .cropper p {
+    color: rgb(199, 187, 179);
+}
+
+.section-1 .card {
+    width: 253px;
     height: 332px;
     justify-content: center;
-    margin-left: 10px;
+    margin-left: 20px;
+    color: black;
+    border-radius: 15px;
+}
+
+.section-1 .card h1 {
+    margin-top: 45px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    color: black;
+    margin-left: 30px;
+}
+
+.section-1 img {
+    margin-left: 30px;
+}
+
+.section-1 .card p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-style: italic;
+    color: rgb(199, 187, 179);
+    margin-left: 30px;
+}
+
+.card:hover {
+    background-color: rgb(136, 232, 152);
+}
+
+
+/*section-2*/
+
+.section-2 {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.section-2 h1 {
+    font-size: 2.5em;
+    line-height: 1.4em;
+    color: black;
+}
+
+.section-2 p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    font-style: italic;
+    color: rgb(199, 187, 179);
+}
+
+.section-2 .btn-wrapper {
+    padding-top: 0.875em;
+    padding-right: 1.5em;
+    padding-bottom: 0.875em;
+    padding-left: 1.5em;
+    border: #72e485;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: #72e485;
+    color: hsla(0, 0.00%, 0.00%, 1.00);
+    text-decoration: none;
+}
+
+.section-2 .row {
+    display: flexbox;
+}
+
+.section-2 .col {
+    justify-content: center;
+}
+
+.section-2 .col .cropper {
+    margin-left: 80px;
 }
