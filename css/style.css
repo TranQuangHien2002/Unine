@@ -21,8 +21,28 @@ body {
     margin: auto;
 }
 
+
+/*
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    padding: 0;
+    margin: auto 16px;
+}
+
+.nav-item {
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
+*/
+
 .header {
-    margin-top: 25px;
     background-color: black;
     height: 900px;
     background-image: url("..//image/bg-header-dot.svg"), url("..//image/bg-header-left.svg"), url("..//image/bg-header-right.svg");
@@ -92,7 +112,12 @@ body {
 /*section-1*/
 
 .section-1 {
-    background-image: url("..//image/background-2.svg");
+    position: relative;
+    background-image: url("..//image/background-2.svg"), linear-gradient(rgb(248, 248, 248), rgb(248, 248, 248));
+    /* Tấm hình và màu nền xanh */
+    background-blend-mode: multiply;
+    /* Áp dụng hiệu ứng nhân màu */
+    background-size: cover;
     height: 700px;
 }
 
@@ -226,12 +251,155 @@ body {
 }
 
 
-/*sectioon-3*/
+/*section-3*/
 
-.section-3 {}
+.section-3 {
+    position: relative;
+    background-image: url("..//image/background-2.svg"), linear-gradient(rgb(248, 248, 248), rgb(248, 248, 248));
+    /* Tấm hình và màu nền xanh */
+    background-blend-mode: multiply;
+    /* Áp dụng hiệu ứng nhân màu */
+    background-size: cover;
+    padding: 100px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
 
-.section-3 .txt-xl {
+.section-3 .cropper .txt-xl {
     text-align: center;
+}
+
+.section-3 .slider-item {
+    padding: 30px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 60px;
+    width: 915px;
+    height: 275px;
+    border: none;
+    border-radius: 20px;
+}
+
+.section-3 .slider-item .slider-body {
+    width: 772px;
+}
+
+.section-3 .slider-item .slider-body b {
+    font-size: 1.75em;
+}
+
+.section-3 .slider-item .slider-body p {
+    font-size: 1em;
+    color: rgb(199, 187, 179);
+    font-style: italic;
+}
+
+.section-3 .slider-item-footer {
+    display: flex;
+}
+
+.section-3 .slider-item-footer .left {
+    flex: 1;
+    justify-content: space-between;
+}
+
+.section-3 .slider-item-footer .right {
+    flex: 1;
+}
+
+.section-3 .slider-item-footer .right img {
+    margin-left: 270px;
+}
+
+.section-3 .slider-item-footer .left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-3 .slider-item-footer .left .name-wrapper {
+    margin-left: 20px;
+}
+
+.section-3 .slider-item-footer .left .txt-name {
+    margin-bottom: 4px;
+    font-size: 1.125em;
+    line-height: 1em;
+    font-weight: 400;
+}
+
+.section-3 .slider-item-footer .left .txt-position {
+    font-size: 1.125em;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #666;
+    font-style: italic;
+}
+
+.section-4 {
+    padding-top: 0px;
+    margin-top: 0px;
+    position: relative;
+    background-image: url("..//image/background-2.svg"), linear-gradient(rgba(0, 128, 0, 0.7), rgba(0, 128, 0, 0.7));
+    /* Tấm hình và màu nền xanh */
+    background-blend-mode: multiply;
+    /* Áp dụng hiệu ứng nhân màu */
+    background-size: cover;
+}
+
+.section-4 .cropper {
+    padding: 80px;
+    padding-top: 0px;
+    width: 680px;
+    margin-left: 220px;
+}
+
+.section-4 .cropper h1,
+.section-4 .cropper p {
+    text-align: center;
+    color: black;
+}
+
+.section-4 .cropper .txt-xs {
+    font-size: 1em;
+    line-height: 1.6em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.section-4 .store-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.section-4 .store-wrapper img {
+    margin-right: 15px;
+}
+
+.section-4 .txt-xl {
     font-size: 2.5em;
     line-height: 1.4em;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: black;
+}
+
+i.fb,
+span.fb {
+    color: #050505;
+}
+
+i.it,
+span.it {
+    color: #070707;
+}
+
+
+/**/
+
+.footer-link-box {
+    display: flex;
 }
