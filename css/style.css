@@ -83,7 +83,7 @@ body {
 }
 
 .header .nav-link {
-    margin-left: 20px;
+    margin-left: 70px;
     margin-right: 20px;
 }
 
@@ -106,7 +106,11 @@ body {
 }
 
 .container .txt-m {
+    width: 562px;
     margin-top: 82px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-style: italic;
 }
 
 .container .store {
@@ -121,6 +125,30 @@ body {
 .container .ratting-wrapper .star {
     margin-top: -10px;
     margin-left: 10px;
+}
+
+.container .amazon-left {
+    position: absolute;
+    left: -2.1em;
+    top: 23.5em;
+    width: 20em;
+    height: 3.875em;
+}
+
+.container .amazon-img {
+    box-shadow: 0 40px 60px 0 hsla(0, 0.00%, 20.00%, 0.20);
+}
+
+.container .mcd-right {
+    position: absolute;
+    right: -16.5em;
+    bottom: 4em;
+    width: 20em;
+    height: 3.875em;
+}
+
+.container .mcd-right {
+    box-shadow: 0 40px 60px 0 hsla(0, 0.00%, 20.00%, 0.20);
 }
 
 
@@ -195,6 +223,21 @@ body {
     background-color: rgb(136, 232, 152);
 }
 
+.section-1 .txt-xl {
+    font-size: 2.5em;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+.section-1 .txt-m {
+    width: 615px;
+    margin-top: 20px;
+    margin-left: 230px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
 
 /*section-2*/
 
@@ -253,11 +296,19 @@ body {
     border: none;
 }
 
-.section-2 .txt-xl {
+.section-2 #a {
+    height: 100px;
+    font-size: 2.5em;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+.section-2 #b {
     width: 400px;
     height: 100px;
     font-size: 2.5em;
     line-height: 1.4em;
+    font-weight: bold;
 }
 
 .section-2 .txt-m {
@@ -271,6 +322,18 @@ body {
     line-height: 1.6em;
     font-weight: 400;
     font-style: italic;
+}
+
+.section-2 .txt-sm {
+    margin-top: 20px;
+    width: 355px;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+.section-2 .btn-wrapper {
+    margin-top: 40px;
 }
 
 
@@ -290,6 +353,9 @@ body {
 
 .section-3 .cropper .txt-xl {
     text-align: center;
+    font-size: 2.5em;
+    line-height: 1.4em;
+    font-weight: bold;
 }
 
 .section-3 .slider-item {
@@ -358,6 +424,10 @@ body {
     font-style: italic;
 }
 
+.section-3 .slider-item-footer .left img {
+    border-radius: 50%;
+}
+
 .section-4 {
     padding-top: 0px;
     margin-top: 0px;
@@ -383,6 +453,10 @@ body {
 }
 
 .section-4 .cropper .txt-xs {
+    width: 380px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     font-size: 1em;
     line-height: 1.6em;
     font-weight: 500;
@@ -399,8 +473,10 @@ body {
 }
 
 .section-4 .txt-xl {
+    width: 450px;
     font-size: 2.5em;
     line-height: 1.4em;
+    font-weight: bold;
 }
 
 
@@ -471,4 +547,8 @@ span.it {
     color: hsla(0, 0.00%, 100.00%, 1.00);
     border-top: rgb(35, 35, 35) solid 2px;
     padding: 20px;
+}
+
+.Container-l .btn {
+    margin-right: 20px;
 }
