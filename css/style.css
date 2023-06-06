@@ -42,18 +42,6 @@ body {
 }
 */
 
-
-/*
-.header {
-    padding-bottom: 100px;
-    background-color: black;
-    background-image: url("..//image/bg-header-dot.svg"), url("..//image/bg-header-left.svg"), url("..//image/bg-header-right.svg");
-    background-position: left top, center center, right bottom;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: cover, cover, cover;
-}
-*/
-
 .header {
     padding-top: 13.5em;
     padding-bottom: 11.25em;
@@ -73,7 +61,7 @@ body {
 }
 
 .header .logo-nav {
-    margin-top: 20px;
+    margin-top: 15px;
     max-height: 1.625em;
 }
 
@@ -83,8 +71,24 @@ body {
 }
 
 .header .nav-link {
-    margin-left: 70px;
+    font-size: 16px;
+    padding: 0px;
+    margin-left: 55px;
     margin-right: 20px;
+}
+
+.dropdown-item {
+    background-color: rgb(16, 16, 16);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.no-hover:hover {
+    color: inherit !important;
+    background-color: inherit !important;
+    text-decoration: none !important;
+    cursor: default !important;
 }
 
 
@@ -317,11 +321,12 @@ body {
 .section-2 .txt-m {
     font-size: 1.5em;
     line-height: 1.5em;
-    font-style: italic;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .section-2 .txt-xs {
-    font-size: 1.4em;
+    font-size: 1em;
     line-height: 1.6em;
     font-weight: 400;
     font-style: italic;
@@ -373,6 +378,7 @@ body {
 }
 
 .section-3 .slider-item .slider-body {
+    margin-top: -60px;
     width: 772px;
 }
 
@@ -381,9 +387,17 @@ body {
 }
 
 .section-3 .slider-item .slider-body p {
-    font-size: 1em;
+    width: 695px;
+    font-size: 1.125em;
     color: rgb(199, 187, 179);
     font-style: italic;
+}
+
+.section-3 .txt-m {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .section-3 .slider-item-footer {
@@ -413,17 +427,18 @@ body {
 }
 
 .section-3 .slider-item-footer .left .txt-name {
+    color: #666;
     margin-bottom: 4px;
-    font-size: 1.125em;
+    font-size: 1.25em;
     line-height: 1em;
     font-weight: 400;
 }
 
-.section-3 .slider-item-footer .left .txt-position {
+.section-3 .txt-position {
     font-size: 1.125em;
-    line-height: 1.5em;
+    line-height: 1em;
     font-weight: 400;
-    color: #666;
+    color: rgb(199, 187, 179);
     font-style: italic;
 }
 
@@ -543,6 +558,18 @@ span.it {
     margin-right: 50px;
 }
 
+.footer-logo-wrapper i {
+    color: rgb(245, 242, 242);
+    font-size: 25px;
+    margin-right: 20px;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+.footer-logo-wrapper i:hover {
+    background-color: #666;
+}
+
 .copyright {
     text-align: center;
     font-size: 1.125em;
@@ -550,8 +577,4 @@ span.it {
     color: hsla(0, 0.00%, 100.00%, 1.00);
     border-top: rgb(35, 35, 35) solid 2px;
     padding: 20px;
-}
-
-.Container-l .btn {
-    margin-right: 20px;
 }
